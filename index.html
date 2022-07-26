@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="font-awesome.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous">
+
+    <!-- CUSTOM CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar blur stickyy">
+        <!-- <div id="navtext" class=" mx-auto">
+            <a style="font-weight: bold;" class="navbar-brand" href="#">PORTFOLIO</a>
+            <button id="trans" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span id="trans1"><i id="tgl" class="fa fa-bars" style="font-size:22px;color:#d4d4d8"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#MotionModal">Contact</a>
+                    </li>
+
+                </ul>
+                <span class="signin" >
+                    <button class="btn sign-in-btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#SigninModal" type="submit">Sign in</button>
+                  </span>
+
+            </div>
+        </div> -->
+
+        <div class="nav-pad">
+            <div class="navbar-nav align-items-center">
+                <a id="nav-title" class="nav-link bold" href="#">PORTFOLIO</a>
+                <span class="nav-item nav-lg">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </span>
+                <span class="nav-item nav-lg">
+                    <a class="nav-link" href="#about">About Me</a>
+                </span>
+                <span class="nav-item nav-lg">
+                    <a class="nav-link" href="#skills">My Skills</a>
+                </span>
+                <span class="nav-item nav-lg">
+                    <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#MotionModal">Contact</a>
+                </span>
+
+                <span style="float: right;" id="trans">
+                    <span id="trans1"><i id="tgl" class="fa fa-bars nav-toggler" style="font-size:22px;color:#d4d4d8"></i></span>
+                </span>
+
+                <!-- <span class="signin" >
+                        <button class="btn sign-in-btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#SigninModal" type="submit">Sign in</button>
+                      </span> -->
+
+            </div>
+        </div>
+
+        <div id="nav-collapse" class="nav-pad">
+            <div class="d-flex-sm navbar-nav">
+                <span class="nav-item nav-sm">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </span>
+                <span class="nav-item nav-sm">
+                    <a class="nav-link" href="#about">About Me</a>
+                </span>
+                <span class="nav-item nav-sm">
+                    <a class="nav-link" href="#skills">My Skills</a>
+                </span>
+                <span class="nav-item nav-sm">
+                    <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#MotionModal">Contact</a>
+                </span>
+
+                <!-- <span class="signin" >
+                        <button class="btn sign-in-btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#SigninModal" type="submit">Sign in</button>
+                      </span> -->
+
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div>
+            <div style="margin-top: -2%;" class="d-flex">
+                <h1 id="title" class="fontset">FRONT-END DEVELOPER</h1>
+            </div>
+            <div class="d-flex">
+                <img style="width: 200px;margin-top:0%" src="img/profile.png">
+            </div>
+            <div class="d-flex">
+                <h2>Prabhjot Singh</h2>
+            </div>
+        </div>
+
+        <div id="about" class=" automargin">
+            <div>
+                <h1 class="fontset d-flex">
+                    ABOUT&nbsp<span style="color: #8080FF;">ME</span>
+                </h1>
+            </div>
+
+            <div style="margin-top: 4%;background-image: url('./img/stars.png');" class=" d-flex">
+                <!-- <img id="stars1" src="img/stars.png"> -->
+
+                <div id="box" class="">
+                    <p class="d-flex" style="position: absolute;padding: 5%;">
+                        Hi, My name is Prabhjot Singh. I'm currently pursuing BECSE at Chitkara University.<br> I am
+                        outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I
+                        believe that a person should work on developing their professional skills and learning new
+                        things all the time. Currently, I am looking for new career opportunities and trying anything
+                        new on my way.
+                    </p>
+                </div>
+                <!-- <img id="stars2" src="img/stars.png"> -->
+            </div>
+        </div>
+
+        <div class=" automargin">
+            <div id="skills">
+                <h1 class="fontset d-flex">
+                    MY&nbsp<span style="color: #8080FF;"> SKILLS</span>
+                </h1>
+            </div>
+
+
+            <div class="skills d-flex">
+                <div class="bg-grad d-flex card-padding">
+                    <h1>HT<span style="color: #d84924">ML</span></h1>
+                    <div class="progress-bar">
+                        <div style="width: 78%;height: 5px;" id="bar1">&nbsp</div>
+                    </div>
+                </div>
+
+                <div class="bg-grad d-flex card-padding">
+
+                    <h1>C<span style="color: #2449d8;">SS</span></h1>
+                    <div class="progress-bar">
+                        <div style="width: 65%;height: 5px;" id="bar2">&nbsp</div>
+                    </div>
+                </div>
+
+                <div class="bg-grad d-flex card-padding">
+                    <h1>BOOT<span style="color: #8465b5">STRAP</span></h1>
+                    <div class="progress-bar">
+                        <div style="width: 85%;height: 5px;" id="bar3">&nbsp</div>
+                    </div>
+                </div>
+
+                <div class="bg-grad d-flex card-padding">
+
+                    <h1>JAVA<span style="color: #ead416;">SCRIPT</span></h1>
+                    <div class="progress-bar">
+                        <div style="width: 38%;height: 5px;" id="bar4">&nbsp</div>
+                    </div>
+                </div>
+
+                <div class="bg-grad d-flex card-padding">
+
+                    <h1>C<span style="color: #005095;">++</span></h1>
+                    <div class="progress-bar">
+                        <div style="width: 40%;height: 5px;" id="bar5">&nbsp</div>
+                    </div>
+                </div>
+
+                <div class="bg-grad d-flex card-padding">
+
+                    <h1>PYT<span style="color: #b58125;">HON</span></h1>
+                    <div class="progress-bar">
+                        <div style="width: 60%;height: 5px;" id="bar6">&nbsp</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" automargin">
+            <div>
+                <h1 class="fontset d-flex">
+                    MY&nbsp<span style="color: #8080FF;">PORTFOLIO</span>
+                </h1>
+            </div>
+
+            <div class="d-flex-folio">
+
+
+                <div style="margin-right: 2%;">
+                    <div style="margin: 2%;">
+                        <h2 style="margin-bottom: 5%;" class="bold-medium">
+                            <i style="color: grey;" class="fa fa-circle" aria-hidden="true"></i> Discontinued
+                        </h2>
+                        <a href="http://sellastic.ml/" target="_blank"><img class="port-img" src="img/portfolio3.png"
+                                alt="..."></a>
+                    </div>
+                </div>
+
+
+
+
+                <div>
+                    <div style="margin: 2%;">
+                        <h2 style="margin-bottom: 5%;" class="bold-medium"><i style="color: rgb(8, 102, 8);"
+                                class="fa fa-circle" aria-hidden="true"></i> Ongoing</h2>
+                        <a href="http://debsoc.ga/" target="_blank"><img class="port-img" src="img/portfolio2.png"
+                                class="card-img-top" alt="..."></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <div id="footer" class=" automargin">
+        <p style="margin: 0;" class="d-flex bold-medium">
+            © 2022 Prabhjot Singh. All rights reserved
+        </p>
+    </div>
+</body>
+
+</html>
