@@ -22,20 +22,13 @@ The site highlights my featured projects, skills, and ways to connect profession
 - Mobile-first responsive design
 
 ## 📸 Screenshots
-<img width="1855" height="736" alt="image" src="https://github.com/user-attachments/assets/d7cd18e7-a48a-481c-8445-5f84d4bce306" />
+<img width="1673" height="766" alt="image" src="https://github.com/user-attachments/assets/5f49d186-8d78-4d4d-b9fd-5c3fc962f73e" />
 <br>
-<img width="1855" height="740" alt="image" src="https://github.com/user-attachments/assets/89f09cbc-e6d4-46f5-95f6-6a0cb33c450a" />
+<img width="1413" height="787" alt="image" src="https://github.com/user-attachments/assets/53f1cf00-f318-4b80-86a4-ce9b563541a1" />
+<br>
+<img width="1447" height="776" alt="image" src="https://github.com/user-attachments/assets/7b4d47f2-4a60-4d4b-9517-fca4442a6a8c" />
 
-## 📁 Folder Structure
-📦 Portfolio
 
-┣ 📂 css
-
-┣ 📂 js
-
-┣ 📂 assets
-
-┗ 📜 index.html
 
 
 ## 🙋‍♂️ Author
