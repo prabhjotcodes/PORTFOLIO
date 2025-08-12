@@ -2,30 +2,29 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prabhjot Singh - Frontend Developer Portfolio</title>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="font-awesome.js"></script>
-    <script type="text/javascript" src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="font-awesome.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
 
-    <!-- CUSTOM CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+  <!-- CUSTOM CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
-    <nav class="navbar blur stickyy">
-        <!-- <div id="navtext" class=" mx-auto">
+  <nav class="navbar blur stickyy">
+    <!-- <div id="navtext" class=" mx-auto">
             <a style="font-weight: bold;" class="navbar-brand" href="#">PORTFOLIO</a>
             <button id="trans" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -55,191 +54,325 @@
             </div>
         </div> -->
 
-        <div class="nav-pad">
-            <div class="navbar-nav align-items-center">
-                <a id="nav-title" class="nav-link bold" href="#">PORTFOLIO</a>
-                <span class="nav-item nav-lg">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </span>
-                <span class="nav-item nav-lg">
-                    <a class="nav-link" href="#about">About Me</a>
-                </span>
-                <span class="nav-item nav-lg">
-                    <a class="nav-link" href="#skills">My Skills</a>
-                </span>
-                <span class="nav-item nav-lg">
-                    <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#MotionModal">Contact</a>
-                </span>
+    <div class="nav-pad">
+      <div class="navbar-nav align-items-center">
+        <a id="nav-title" class="nav-link bold" href="#">PORTFOLIO</a>
+        <span class="nav-item nav-lg">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </span>
+        <span class="nav-item nav-lg">
+          <a class="nav-link" href="#about">About Me</a>
+        </span>
+        <span class="nav-item nav-lg">
+          <a class="nav-link" href="#skills">My Skills</a>
+        </span>
+        <span class="nav-item nav-lg">
+          <a href="#contact" class="nav-link" data-bs-toggle="modal" data-bs-target="#MotionModal">Contact</a>
+        </span>
 
-                <span style="float: right;" id="trans">
-                    <span id="trans1"><i id="tgl" class="fa fa-bars nav-toggler" style="font-size:22px;color:#d4d4d8"></i></span>
-                </span>
+        <span style="float: right" id="trans">
+          <span id="trans1"><i id="tgl" class="fa fa-bars nav-toggler"
+              style="font-size: 22px; color: #d4d4d8"></i></span>
+        </span>
 
-                <!-- <span class="signin" >
+        <!-- <span class="signin" >
                         <button class="btn sign-in-btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#SigninModal" type="submit">Sign in</button>
                       </span> -->
-
-            </div>
-        </div>
-
-        <div id="nav-collapse" class="nav-pad">
-            <div class="d-flex-sm navbar-nav">
-                <span class="nav-item nav-sm">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </span>
-                <span class="nav-item nav-sm">
-                    <a class="nav-link" href="#about">About Me</a>
-                </span>
-                <span class="nav-item nav-sm">
-                    <a class="nav-link" href="#skills">My Skills</a>
-                </span>
-                <span class="nav-item nav-sm">
-                    <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#MotionModal">Contact</a>
-                </span>
-
-                <!-- <span class="signin" >
-                        <button class="btn sign-in-btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#SigninModal" type="submit">Sign in</button>
-                      </span> -->
-
-            </div>
-        </div>
-    </nav>
-
-    <main>
-        <div>
-            <div style="margin-top: -2%;" class="d-flex">
-                <h1 id="title" class="fontset">FRONT-END DEVELOPER</h1>
-            </div>
-            <div class="d-flex">
-                <img style="width: 200px;margin-top:0%" src="img/profile.png">
-            </div>
-            <div class="d-flex">
-                <h2>Prabhjot Singh</h2>
-            </div>
-        </div>
-
-        <div id="about" class=" automargin">
-            <div>
-                <h1 class="fontset d-flex">
-                    ABOUT&nbsp<span style="color: #8080FF;">ME</span>
-                </h1>
-            </div>
-
-            <div style="margin-top: 4%;background-image: url('./img/stars.png');" class=" d-flex">
-                <!-- <img id="stars1" src="img/stars.png"> -->
-
-                <div id="box" class="">
-                    <p class="d-flex" style="position: absolute;padding: 5%;">
-                        Hi, My name is Prabhjot Singh. I'm currently pursuing BECSE at Chitkara University.<br> I am
-                        outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I
-                        believe that a person should work on developing their professional skills and learning new
-                        things all the time. Currently, I am looking for new career opportunities and trying anything
-                        new on my way.
-                    </p>
-                </div>
-                <!-- <img id="stars2" src="img/stars.png"> -->
-            </div>
-        </div>
-
-        <div class=" automargin">
-            <div id="skills">
-                <h1 class="fontset d-flex">
-                    MY&nbsp<span style="color: #8080FF;"> SKILLS</span>
-                </h1>
-            </div>
-
-
-            <div class="skills d-flex">
-                <div class="bg-grad d-flex card-padding">
-                    <h1>HT<span style="color: #d84924">ML</span></h1>
-                    <div class="progress-bar">
-                        <div style="width: 78%;height: 5px;" id="bar1">&nbsp</div>
-                    </div>
-                </div>
-
-                <div class="bg-grad d-flex card-padding">
-
-                    <h1>C<span style="color: #2449d8;">SS</span></h1>
-                    <div class="progress-bar">
-                        <div style="width: 65%;height: 5px;" id="bar2">&nbsp</div>
-                    </div>
-                </div>
-
-                <div class="bg-grad d-flex card-padding">
-                    <h1>BOOT<span style="color: #8465b5">STRAP</span></h1>
-                    <div class="progress-bar">
-                        <div style="width: 85%;height: 5px;" id="bar3">&nbsp</div>
-                    </div>
-                </div>
-
-                <div class="bg-grad d-flex card-padding">
-
-                    <h1>JAVA<span style="color: #ead416;">SCRIPT</span></h1>
-                    <div class="progress-bar">
-                        <div style="width: 38%;height: 5px;" id="bar4">&nbsp</div>
-                    </div>
-                </div>
-
-                <div class="bg-grad d-flex card-padding">
-
-                    <h1>C<span style="color: #005095;">++</span></h1>
-                    <div class="progress-bar">
-                        <div style="width: 40%;height: 5px;" id="bar5">&nbsp</div>
-                    </div>
-                </div>
-
-                <div class="bg-grad d-flex card-padding">
-
-                    <h1>PYT<span style="color: #b58125;">HON</span></h1>
-                    <div class="progress-bar">
-                        <div style="width: 60%;height: 5px;" id="bar6">&nbsp</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class=" automargin">
-            <div>
-                <h1 class="fontset d-flex">
-                    MY&nbsp<span style="color: #8080FF;">PORTFOLIO</span>
-                </h1>
-            </div>
-
-            <div class="d-flex-folio">
-
-
-                <div style="margin-right: 2%;">
-                    <div style="margin: 2%;">
-                        <h2 style="margin-bottom: 5%;" class="bold-medium">
-                            <i style="color: grey;" class="fa fa-circle" aria-hidden="true"></i> Discontinued
-                        </h2>
-                        <a href="http://sellastic.ml/" target="_blank"><img class="port-img" src="img/portfolio3.png"
-                                alt="..."></a>
-                    </div>
-                </div>
-
-
-
-
-                <div>
-                    <div style="margin: 2%;">
-                        <h2 style="margin-bottom: 5%;" class="bold-medium"><i style="color: rgb(8, 102, 8);"
-                                class="fa fa-circle" aria-hidden="true"></i> Ongoing</h2>
-                        <a href="http://debsoc.ga/" target="_blank"><img class="port-img" src="img/portfolio2.png"
-                                class="card-img-top" alt="..."></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </main>
-
-    <div id="footer" class=" automargin">
-        <p style="margin: 0;" class="d-flex bold-medium">
-            © 2022 Prabhjot Singh. All rights reserved
-        </p>
+      </div>
     </div>
+
+    <div id="nav-collapse" class="nav-pad">
+      <div class="d-flex-sm navbar-nav">
+        <span class="nav-item nav-sm">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </span>
+        <span class="nav-item nav-sm">
+          <a class="nav-link" href="#about">About Me</a>
+        </span>
+        <span class="nav-item nav-sm">
+          <a class="nav-link" href="#skills">My Skills</a>
+        </span>
+        <span class="nav-item nav-sm">
+          <a href="#contact" class="nav-link" data-bs-toggle="modal" data-bs-target="#MotionModal">Contact</a>
+        </span>
+
+        <!-- <span class="signin" >
+                        <button class="btn sign-in-btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#SigninModal" type="submit">Sign in</button>
+                      </span> -->
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div>
+      <div style="margin-top: -2%" class="d-flex">
+        <h1 id="title" class="fontset">Front-End Developer</h1>
+      </div>
+      <div class="d-flex hex-container">
+        <img class="hex-pic" src="img/profile_new.jpg" />
+      </div>
+      <div class="d-flex">
+        <h2>Prabhjot Singh</h2>
+      </div>
+    </div>
+
+    <div id="about" class="automargin">
+      <div>
+        <h1 class="fontset d-flex">
+          ABOUT&nbsp;<span style="color: #8080ff">ME</span>
+        </h1>
+      </div>
+
+      <div style="margin-top: 4%; background-image: url('./img/stars.png')" class="d-flex">
+        <div id="box" class="">
+          <p class="d-flex" style="position: absolute; padding: 5%">
+            I'm a front-end developer based in Melbourne with a background in
+            logistics and a Computer Science degree from Deakin University.
+            I've built real-world apps like InvoGen (invoice generator),
+            Sellastic (e-commerce UI), and TaskGo (task manager) using React,
+            TypeScript, Tailwind CSS, and Vite. I'm currently seeking junior
+            frontend roles where I can contribute and grow as a developer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex" style="margin: 2rem;margin-bottom: 50px">
+      <a href="https://drive.google.com/file/d/17RFJqyFKIu2N8viEcFmFOguWX8dX4HYI/view?usp=sharing" download class="btn-cv">
+        <i class="fa fa-download"></i> Download CV
+      </a>
+    </div>
+
+
+
+    <div class="automargin">
+      <div id="skills">
+        <h1 class="fontset d-flex" style="justify-content: center">
+          MY&nbsp;<span style="color: #8080ff">SKILLS</span>
+        </h1>
+      </div>
+
+      <div class="skills d-flex" style="
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+          ">
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fab fa-react" style="color: #61dafb; margin-right: 10px"></i>REACT<span
+              style="color: #61dafb">.JS</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="85%" style="background-color: #61dafb"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fas fa-code" style="color: #3178c6; margin-right: 10px"></i>TYPE<span
+              style="color: #3178c6">SCRIPT</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="55%" style="background-color: #3178c6"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fas fa-wind" style="color: #38bdf8; margin-right: 10px"></i>TAILWIND<span
+              style="color: #38bdf8">CSS</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="70%" style="background-color: #38bdf8"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fab fa-js-square" style="color: #f0db4f; margin-right: 10px"></i>JAVA<span
+              style="color: #f0db4f">SCRIPT</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="65%" style="background-color: #f0db4f"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fab fa-html5" style="color: #e34f26; margin-right: 10px"></i>HT<span
+              style="color: #e34f26">ML</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="85%" style="background-color: #e34f26"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fab fa-css3-alt" style="color: #264de4; margin-right: 10px"></i>C<span
+              style="color: #264de4">SS</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="75%" style="background-color: #264de4"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fab fa-git-alt" style="color: #f05032; margin-right: 10px"></i>GI<span
+              style="color: #f05032">T</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="90%" style="background-color: #f05032"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fas fa-bolt" style="color: #646cff; margin-right: 10px"></i>VI<span
+              style="color: #646cff">TE</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="80%" style="background-color: #646cff"></div>
+          </div>
+        </div>
+
+        <div class="bg-grad d-flex card-padding">
+          <h1>
+            <i class="fab fa-bootstrap" style="color: #7952b3; margin-right: 10px"></i>BOOT<span
+              style="color: #7952b3">STRAP</span>
+          </h1>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="80%" style="background-color: #7952b3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="automargin">
+      <div>
+        <h1 class="fontset d-flex">
+          MY&nbsp<span style="color: #8080ff">PORTFOLIO</span>
+        </h1>
+      </div>
+
+      <div class="portfolio-container">
+        <!-- Ongoing Projects -->
+        <div class="project-group">
+          <h2 class="bold-medium">
+            <i class="fa fa-circle" style="color: rgb(8, 102, 8)"></i> Ongoing
+          </h2>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <a href="https://invogen.codebyprabh.tech/" target="_blank">
+                <img class="port-img" src="img/portfolio1.png" alt="InvoGen" />
+              </a>
+              <h3>Invo-Gen - Auto invoice generator</h3>
+              <ul>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Tailwind CSS</li>
+                <li>Vite</li>
+                <li>Docxtemplater</li>
+              </ul>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+
+        <!-- Discontinued Projects -->
+        <div class="project-group">
+          <h2 class="bold-medium">
+            <i class="fa fa-circle" style="color: gray"></i> Discontinued
+          </h2>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <a href="https://sellastic.codebyprabh.tech/" target="_blank">
+                <img class="port-img" src="img/portfolio2.png" alt="Sellastic" />
+              </a>
+              <h3>Sellastic - E-commerce frontend</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+
+            <div class="project-card">
+              <a href="https://taskgo.codebyprabh.tech/" target="_blank">
+                <img class="port-img" src="img/portfolio3.png" alt="TaskGo" />
+              </a>
+              <h3>TaskGo - Simple task manager</h3>
+              <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+
+            <div class="project-card">
+              <a href="https://ishopreact.codebyprabh.tech/" target="_blank">
+                <img class="port-img" src="img/portfolio4.png" alt="iShop" />
+              </a>
+              <h3>iShop - Apple-style store landing page</h3>
+              <ul>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- CONTACT SECTION -->
+      <div id="contact" class="automargin" style="margin-top: 6rem">
+        <h1 class="fontset d-flex" style="justify-content: center">
+          CONTACT&nbsp;<span style="color: #8080ff">ME</span>
+        </h1>
+
+        <div class="d-flex" style="
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+            color: #ccc;
+          ">
+          <p style="text-align: center; max-width: 600px">
+            I'm open to freelance work, collaboration, or full-time
+            opportunities. Feel free to reach out if you have a project,
+            question, or just want to connect!
+          </p>
+
+          <div id="contact-a" style="margin-top: 1.5rem; line-height: 2rem">
+            <p>
+              <i class="fas fa-envelope" style="margin-right: 10px; color: #8080ff"></i><strong>Email:</strong>
+              <a href="mailto:codebyprabh@gmail.com" style="color: #fff">codebyprabh@gmail.com</a>
+            </p>
+            <p>
+              <i class="fab fa-linkedin" style="margin-right: 10px; color: #8080ff"></i><strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/prabhjotcodes/" target="_blank"
+                style="color: #fff">linkedin.com/in/prabhjotcodes</a>
+            </p>
+            <p>
+              <i class="fab fa-github" style="margin-right: 10px; color: #8080ff"></i><strong>GitHub:</strong>
+              <a href="https://github.com/prabhjotcodes" target="_blank"
+                style="color: #fff">github.com/prabhjotcodes</a>
+            </p>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <div id="footer" class="automargin">
+    <p style="margin: 0; text-align: center;" class="d-flex bold-medium">
+      © 2025 Prabhjot Singh · Built with HTML, JavaScript & Bootstrap
+    </p>
+  </div>
 </body>
 
 </html>
